@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    max-width: 1230px;
+    margin: 0 auto;
+    margin-top: 18px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#headButtons {
+    display: flex;
+    margin-left: auto;
+}
+#headButtons div {
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 50px;
+}
+#headButtons a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 50px;
+    color: black;
+}
+#langSelect {
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 59px;
+}
+#langSelect div {
+    border: 2px solid #E2E7EB;
+    border-left: none;
+    padding: 5px 8px 6px 9px;
+}
+#langSelect div:nth-child(1) {
+    border-radius: 6px 0px 0px 6px;
+}
+#langSelect div:nth-child(2) {
+    border-radius: 0px 6px 6px 0px;
+    
+}
+.activeLang {
+    background: #E36F59;
+    border: 2px solid #E36F59 !important;
+    color: white;
+}

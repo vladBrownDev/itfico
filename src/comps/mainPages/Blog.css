@@ -1,0 +1,80 @@
+#blog {
+    max-width: 1230px;
+    margin: 31px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.smallNavbar {
+    display: flex;
+    align-items: center;
+}
+.smallNavbar img {
+    height: 13px;
+    width: 13pxs;
+}
+.smallNavbar * {
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+#blogMain h1 {
+    font-family: "Bitter";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.005em;
+    color: #23262D;
+    margin-bottom: 20px;
+    margin-top: 36px;
+}
+#blogMain {
+    width: 100%;
+}
+
+.blogTag {
+    display: inline-block;
+    padding: 10px 15px;
+    gap: 10px;
+    background: #92E3A9;
+    border-radius: 4px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    color: #23262D;
+    margin-right: 11px;
+}
+#blogDownHeader {
+    display: flex;
+    justify-content: space-between;
+}
+#blogSort {
+    background: #FFFFFF;
+    border: 2px solid #E2E7EB;
+    border-radius: 4px;
+    width: 234px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #606268;
+    padding: 0 16px;
+}
+#pagArticles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+#pagArticles .smallArticle {
+    margin-right: 30px;
+    margin-top: 23px;
+}
+#pagArticles .smallArticle:nth-child(4n) {
+    margin-right: 0;
+}
+#blogMain .swiper {
+    height: 1170px !important;
+    margin-bottom: 178px !important;
+}

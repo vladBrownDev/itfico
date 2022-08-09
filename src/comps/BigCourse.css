@@ -1,0 +1,243 @@
+#bigCourse {
+    width: 1230px;
+    margin: 31px auto;
+}
+#mainBigCourse {
+    margin-top: 40px;
+    border-radius: 8px;
+    width: 285px;
+    display: flex;
+}
+.bigCourseAccordion {
+    width: 285px;
+    /* height: 50px; */
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    box-shadow: 0px 3px 23px rgb(0 0 0 / 7%) !important;
+}
+#accordShell {
+    height:min-content;
+}
+.accordText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #23262D;
+}
+.num {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E36F59;
+    margin-right: 4px;
+}
+.accordHeadShell {
+    height: 60px !important;
+    margin: 0 !important;
+}
+.accordHead {
+    height: 35px !important;
+    display: flex;
+    align-items: center;
+    
+}
+.accordHeadShell:hover {
+    background-color: #E36F59;
+}
+.accordHeadShell:hover .num, .accordHeadShell:hover .accordText  {
+    color:white
+}
+.accordOpen .detailsList {
+    margin: 0 0;
+}
+.detailsList div {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #23262D;
+    padding: 5px 16px ;
+}
+.detailsList div:hover {
+    background-color: #E36F59;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.accordDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 0px !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+    width: 255px;
+    left: 15px !important;
+}
+#courseText {
+    margin-left: 30px;
+    width: 915px;
+}
+#courseText h4 {
+    margin-top: 0;
+    margin-bottom:10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #606268;
+    width: 272px;
+}
+#courseText h1 {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+    letter-spacing: 0.01em;
+
+    /* Black */
+
+    color: #23262D;
+    width: 735px;
+}
+#courseTextHead {
+    display: flex;
+    justify-content: space-between;
+    width: 915px;
+    height: 141px;
+}
+.courseNum {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: right;
+    color: #C4CACF;
+}
+.courseNum:after {
+    display: inline-block;
+    content:".";
+    background: #F3F4F5;
+    height: 110px;
+    width: 110px;
+    border-radius: 55px;
+    color: #F3F4F5;
+    position: relative;
+    bottom: 105px;
+    left: 30px;
+    z-index: -2;
+}
+#courseText p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #606268;
+    margin-top: 50px;
+}
+.imagesCont p {
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 26px;
+    color: #23262D;
+}
+.taskHead {
+    margin-top: 0 !important;
+}
+.taskHead h1 {
+    margin: 24px 0 24px 15px;
+}
+#taskAccord {
+    margin-top: 46px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 23px rgba(0, 0, 0, 0.07);
+}
+#taskAccord .css-o4b71y-MuiAccordionSummary-content {
+    margin: 0 !important;
+}
+#taskAccord:before {
+    width: 0 !important;
+}
+#taskAccord p {
+    margin-top: 0;
+    display:flex ;
+    align-items: center;
+    width: 816px;
+}
+#taskAccord .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 0;
+    margin: 0 20px 0 20px;
+}
+.answerHeadShell {
+    height: 50px;
+}
+#answerAccord .css-o4b71y-MuiAccordionSummary-content {
+    height: 50px !important;
+}
+.answerHead{
+    font-family: 'Bitter' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 18px !important;
+    color: #23262D !important;
+}
+#answerAccord .answer {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #23262D;
+    margin-left: 5px;
+}
+#answerAccord {
+    margin-top: 20px;
+    border: 2px solid #E2E7EB;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+#answerAccord:last-child {
+    margin-bottom: 0;
+}
+.taskDown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.taskDown h3{
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #23262D;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.taskDown span {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #23262D;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}

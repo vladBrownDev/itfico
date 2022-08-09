@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&display=swap');
+.smallCourse {
+    width: 600px;
+    height: 266px;
+    background-image: url("../img/csharpBack.png");
+    background-size: cover;
+    border-radius: 8px;
+    padding: 30px 25px 26px 20px;
+}
+.courseSmallIcon {
+    width: 44.46px;
+    height: 50px;
+}
+.smallCourse h2, .smallerCourse h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.smallCourse div, .smallerCourse div {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 58px;
+}
+.smallCourse a {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+.newCourse {
+    background-image: url("../img/newBack.png") !important;
+}
+.smallerCourse {
+    width: 285px;
+    background-color: #C2E0FF;;
+    border-radius: 8px;
+    padding: 30px 25px 26px 20px;
+}
+.smallerCourse a {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    text-decoration: underline;
+    margin-top: 20px;
+}

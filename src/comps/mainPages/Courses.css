@@ -1,0 +1,47 @@
+#courses {
+    width: 1230px;
+    margin: 36px auto 123px auto;
+}
+#courses h1 {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.005em;
+    color: #23262D;
+}
+#coursesList {
+    display: flex;
+    flex-wrap: wrap;
+}
+#coursesList > div {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 266px;
+}
+#coursesList > div:nth-child(4n) {
+    margin-right: 0;
+}
+#coursesList .smallerCourse div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 58px;
+}
+#coursesList .smallerCourse a {
+    display: none;
+} 
+#coursesList > div:hover {
+    z-index: 20;
+}
+#coursesList > div:hover .smallerCourse{
+    height: 363px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#coursesList > div:hover .smallerCourse div {
+    height: auto;
+}
+#coursesList > div:hover a {
+    display: flex;
+}

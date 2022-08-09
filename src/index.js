@@ -3,11 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
+import Main from './comps/Main';
+import Blog from './comps/mainPages/Blog';
+import BigArticle from './comps/mainPages/BigArticle';
+import Courses from './comps/mainPages/Courses';
+import BigCourse from './comps/BigCourse';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route index element={<Main />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/article" element={<BigArticle />} />
+          <Route path="/courses" element={<Courses/>}/>
+          <Route path="/bigCourse" element={<BigCourse/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
