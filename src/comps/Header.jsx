@@ -9,9 +9,9 @@ function Header() {
             <div id="headButtons">
                 <Link to="/blog">Блог</Link>
                 <Link to="/courses">Курси</Link>
-                <div>Про мене</div>
+                <Link to="/about">Про мене</Link>
                 <div>Підписка на сайт</div>
-                <div>Підтримка</div>
+                <Link to="/donation">Підтримка</Link>
             </div>
             <div id="langSelect">
                 <div className='activeLang'>UKR</div>

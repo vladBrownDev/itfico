@@ -1,4 +1,4 @@
-import './Main.css';
+import "../comps/mainPages/Main.css"
 
 function Footer() {
   return (

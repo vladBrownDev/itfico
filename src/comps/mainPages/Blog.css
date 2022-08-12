@@ -78,3 +78,22 @@
     height: 1170px !important;
     margin-bottom: 178px !important;
 }
+#blogMain .swiper-pagination-bullet {
+    height: 40px !important;
+    width: 40px !important;
+    border: 2px solid #E2E7EB !important;
+    border-radius: 8px !important;
+    padding-top: 9px;
+    opacity:1 !important;
+    background-color: white;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+#blogMain .swiper-pagination-bullet-active{
+    background-color: #E36F59;
+    color: white;
+    border: 1px solid #E36F59 !important;
+}

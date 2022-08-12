@@ -1,13 +1,13 @@
 import './Main.css';
-import SmallArticle from './SmallArticle';
-import SmallCourse from './SmallCourse';
-import NewCourse from './NewCourse';
-import img from "../../src/img/mainImg.png"
-import mouse from "../../src/img/mouse.png"
-import reas1 from "../img/reas1.png"
-import reas2 from "../img/reas2.png"
-import reas3 from "../img/reas3.png"
-import bell from "../img/bell.png"
+import SmallArticle from '../SmallArticle';
+import SmallCourse from '../SmallCourse';
+import NewCourse from '../NewCourse';
+import img from "../../img/mainImg.png"
+import mouse from "../../img/mouse.png"
+import reas1 from "../../img/reas1.png"
+import reas2 from "../../img/reas2.png"
+import reas3 from "../../img/reas3.png"
+import bell from "../../img/bell.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';

@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from 'react-router-dom';
-import Main from './comps/Main';
+import Main from './comps/mainPages/Main';
 import Blog from './comps/mainPages/Blog';
 import BigArticle from './comps/mainPages/BigArticle';
 import Courses from './comps/mainPages/Courses';
 import BigCourse from './comps/BigCourse';
+import About from "./comps/mainPages/About"
+import Donation from "./comps/mainPages/Donation"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +24,8 @@ root.render(
           <Route path="/article" element={<BigArticle />} />
           <Route path="/courses" element={<Courses/>}/>
           <Route path="/bigCourse" element={<BigCourse/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/donation" element={<Donation/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

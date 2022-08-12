@@ -14,6 +14,11 @@ import 'swiper/css/scrollbar';
 
 
 function Blog() {
+  let dots = Array.from(document.querySelectorAll("#blogMain .swiper-pagination-bullet"))
+  dots.map((el,num) => {
+      el.innerHTML = String(num + 1)
+      return el
+  } )
   return (
     <section id="blog">
         <div className='smallNavbar'>

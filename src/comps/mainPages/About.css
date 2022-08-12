@@ -1,0 +1,51 @@
+#about {
+    width: 1230px;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+#mainAbout h1 {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.005em;
+    color: #23262D;
+}
+#mainMiddle {
+    display: flex;
+    justify-content: space-between;
+}
+#mainMiddleText {
+    max-width: 445px;
+}
+#mainMiddleText p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #606268;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#mainMiddleText p span {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #E36F59;
+}
+#stasImg {
+    width: 600px;
+    height: 415px;
+}
+#about #mainForm{
+    margin-top: 80px;
+}
+#mainForm input {
+    background-color: white;
+}
