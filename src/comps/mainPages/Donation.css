@@ -24,6 +24,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url("../../img//wordBg/Donation.png");
+    background-repeat: no-repeat;
+    background-position: 70% 67%;
 }
 #donationText h1 {
     font-family: 'Bitter';

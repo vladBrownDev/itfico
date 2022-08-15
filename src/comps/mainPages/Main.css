@@ -58,8 +58,8 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    bottom: 431px;
-    right: 333px;
+    bottom: 400px;
+    right: 345px;
     transform: rotate(270deg);
     background-image: url("../../img//wordBg/ITifico.png");
 }
