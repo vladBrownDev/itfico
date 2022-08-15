@@ -2,6 +2,16 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+@font-face {
+    font-family: Bitter;
+    src: url("../fonts//Bitter-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GraublauWeb;
+    font-weight: bold;
+    src: url("../fonts//Bitter-Bold.otf") format("opentype");
+}
 
 header {
     max-width: 1230px;
@@ -20,6 +30,9 @@ header {
     cursor: pointer;
     font-weight: 600;
     margin-left: 50px;
+}
+#headButtons a:hover {
+    color: #E36F59;
 }
 #headButtons a {
     text-decoration: none;

@@ -76,7 +76,6 @@
 }
 #blogMain .swiper {
     height: 1170px !important;
-    margin-bottom: 178px !important;
 }
 #blogMain .swiper-pagination-bullet {
     height: 40px !important;
@@ -91,9 +90,28 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
+    background-color: white !important;
 }
 #blogMain .swiper-pagination-bullet-active{
-    background-color: #E36F59;
+    background-color: #E36F59 !important;
     color: white;
     border: 1px solid #E36F59 !important;
+}
+#blogMain .swiper-pagination-bullet::after {
+    display: none;
+}
+#blogMain .swiper-pagination {
+    bottom: 113px !important;
+}
+#blogMain::after {
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    transform: rotate(270deg);
+    position: relative;
+    bottom: 1226px;
+    right: 264px;
+    width: 377px;
+    height: 156px;
+    background-image: url("../../img/wordBg/Blog.png");
 }

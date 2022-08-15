@@ -3,6 +3,19 @@
     margin: 0 auto;
     margin-top: 31px;
 }
+#about::after {
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    transform: rotate(270deg);
+    position: relative;
+    bottom: 532px;
+    right: 423px;
+    width: 666px;
+    height: 156px;
+    background-image: url("../../img/wordBg/about.png");
+    color: #23262D;
+}
 #mainAbout h1 {
     font-family: 'Bitter';
     font-style: normal;
@@ -12,12 +25,15 @@
     letter-spacing: 0.005em;
     color: #23262D;
 }
+#about #mainForm {
+    margin-bottom: 0;
+}
 #mainMiddle {
     display: flex;
     justify-content: space-between;
 }
 #mainMiddleText {
-    max-width: 445px;
+    max-width: 495px;
 }
 #mainMiddleText p {
     font-family: 'Segoe UI';
@@ -29,6 +45,15 @@
     color: #606268;
     margin-top: 0;
     margin-bottom: 30px;
+}
+#mainMiddleText p div {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #606268;
 }
 #mainMiddleText p span {
     font-family: 'Segoe UI';

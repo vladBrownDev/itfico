@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import SmallArticle from "../SmallArticle"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
@@ -13,12 +14,18 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-function Blog() {
-  let dots = Array.from(document.querySelectorAll("#blogMain .swiper-pagination-bullet"))
-  dots.map((el,num) => {
+function Blog() {  
+  function loadPages () {
+    let dots = Array.from(document.querySelectorAll("#blogMain .swiper-pagination-bullet"))
+    dots.map((el,num) => {
       el.innerHTML = String(num + 1)
       return el
-  } )
+    })
+  }
+  loadPages()
+  window.onload = function () {
+    setInterval (loadPages, 200)
+  }
   return (
     <section id="blog">
         <div className='smallNavbar'>
