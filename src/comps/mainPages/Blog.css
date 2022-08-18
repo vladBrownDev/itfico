@@ -115,3 +115,10 @@
     height: 156px;
     background-image: url("../../img/wordBg/Blog.png");
 }
+.smallArticle:hover {
+    cursor: pointer;
+}
+.smallArticle:hover p {
+    color: #E36F59;
+    text-decoration: underline;
+}
