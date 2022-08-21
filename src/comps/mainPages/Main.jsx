@@ -8,6 +8,7 @@ import reas1 from "../../img/reas1.png"
 import reas2 from "../../img/reas2.png"
 import reas3 from "../../img/reas3.png"
 import bell from "../../img/bell.png"
+import backImg from "../../img/mainPicBehind.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -28,9 +29,15 @@ function Main() {
                         <div id="mainDesc">
                             Курси для початківців і просунутих програмістів, а також цікаві статті. Приєднуйтесь і дозвольте нам підтримати вас у вашій кар’єрі
                         </div>
-                        <button className='normalBut'>
-                            Call to action <span className='bigArrow'>🠒</span>
-                        </button>
+                        <div style={{display:"flex"}}>
+                            <button className='normalBut'>
+                                Call to action <span className='bigArrow'>🠒</span>
+                            </button>
+                            <img id="mainPicBehind" src={backImg} alt="{/}">
+
+                            </img>
+                        </div>
+                        
                         <div id="scrollDown">
                             <img src={mouse} alt="" srcset="" />
                             <div>Гортай вниз</div>
